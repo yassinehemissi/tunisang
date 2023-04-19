@@ -1,0 +1,117 @@
+.city-search {
+  position: relative;
+  border: 2px solid var(--text-color-3);
+  border-left: none;
+  border-right: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 0.5;
+  z-index: 2;
+  background-color: white;
+}
+
+.city-search__filter {
+  padding: 20px 2.5vw;
+  border-bottom: 2px solid var(--text-color-3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4vh;
+  flex: 0.3;
+}
+
+.city-search__filter h1 {
+  font-weight: 600;
+  font-size: clamp(1.5rem, 2vw, 2.5rem);
+}
+
+.city-search__filter-bar {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid var(--text-color-1);
+  padding: 20px 10px;
+  width: calc(100% - 20px);
+  gap: 20px;
+}
+
+.city-search__filter-bar input {
+  font-weight: 500;
+  border: none;
+  outline: none;
+  width: 100%;
+
+  font-size: 1rem;
+}
+.city-search__filter-bar input::placeholder {
+  color: var(--text-color-1);
+}
+
+.city-search__filter-bar img {
+  height: 20px;
+  margin-left: 10px;
+}
+
+.city-search__filter-button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.city-search__filter-button h2 {
+  font-size: clamp(1rem, 1vw, 3rem);
+  color: var(--text-color-4);
+  font-weight: 500;
+}
+
+.city-search__filter-button img {
+  height: 40px;
+}
+
+.city-search__cities {
+  flex: 0.7;
+  position: relative;
+  overflow-y: scroll;
+  list-style: none;
+  position: relative;
+  height: 100%;
+}
+
+.city-search__cities li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: calc(100% - 5vw -3px);
+  padding: 20px 2.5vw;
+  gap: 10px;
+  border-bottom: 2px solid var(--text-color-3);
+  cursor: pointer;
+}
+
+.city-search__cities li h3 {
+  font-weight: 600;
+}
+
+.city-search__cities li p {
+  color: var(--text-color-4);
+  font-weight: 500;
+}
+
+.city-search__cities li h3,
+.city-search__cities li p {
+  font-size: clamp(1rem, 0.9vw, 1.5rem);
+}
+
+.city-active {
+  border: 3px solid black !important;
+}
+
+

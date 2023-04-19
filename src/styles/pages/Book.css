@@ -1,0 +1,18 @@
+.book-container {
+  width: 100%;
+  height: calc(100vh - 70px);
+  max-height: calc(100vh - 70px);
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+  min-height: 550px;
+}
+
+@media screen and (max-width: 700px) {
+  .book-container {
+    margin-top: 120px;
+    height: calc(100vh - 120px);
+    flex-direction: column;
+  }
+}

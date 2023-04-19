@@ -1,0 +1,36 @@
+/*  Defining DOM Variables  */
+
+:root {
+  --main-color: #ea232a;
+  --secondary-color: #671112;
+  --text-color-1: #000;
+  --text-color-2: #fff;
+  --text-color-3: #d3d3d3;
+  --text-color-4: #858585;
+  font-family: "Open Sans";
+}
+
+/* Removing Initial Padding and Margin */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: calc(60% + 0.8vmin);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+html {
+}
