@@ -25,8 +25,9 @@
 }
 
 .home-container__top-section h1 {
-  font-size: clamp(4rem, 10vw, 10rem);
+  font-size: clamp(4rem, 10vw, 8rem);
   font-weight: 300;
+  line-height: 120%;
 }
 .home-container__top-section h1 span {
   font-weight: 600;
@@ -74,11 +75,11 @@
   width: fit-content;
   font-weight: 800;
   color: var(--main-color);
-  font-size: clamp(1rem, 5vw, 4rem);
+  font-size: clamp(1rem, 5vw, 3rem);
 }
 
 .article-container article p {
-  font-size: clamp(1rem, 2vw, 2rem);
+  font-size: clamp(1rem, 2vw, 1.9rem);
   text-align: left;
   width: fit-content;
 }

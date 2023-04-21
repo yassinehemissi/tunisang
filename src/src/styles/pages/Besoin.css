@@ -13,7 +13,7 @@
 
 .besoin-progress {
   width: 60%;
-  max-width: 800px;
+  max-width: 700px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -53,18 +53,18 @@ hr.progress-on {
   flex-direction: column;
   gap: 20px;
   width: 60%;
-  max-width: 800px;
+  max-width: 500px;
 }
 
 .besoin-form h1 {
   text-align: center;
   width: 100%;
   margin-top: 20px;
-  font-size: clamp(1rem, 4vw, 2.5rem);
+  font-size: clamp(1rem, 4vw, 2rem);
 }
 .besoin-form input {
   border: 2px solid var(--text-color-3);
-  padding: 10px 10px;
+  padding: 5px 10px;
 }
 
 .besoin-form__control {
@@ -78,7 +78,7 @@ hr.progress-on {
 .besoin-form__control button {
   width: 100%;
   padding: 5px;
-  font-size: clamp(1rem, 2vw, 1.4rem);
+  font-size: clamp(1rem, 2vw, 1.2rem);
   border: none;
   outline: none;
   color: white;
