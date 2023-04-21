@@ -5,8 +5,6 @@ import Header from "../components/Header";
 import Carousel from "../components/Carousel";
 
 const Signup = () => {
-  const [Current, setCurrent] = useState(0);
-  const [Changer, setChanger] = useState(1);
   return (
     <main className="signup-container">
       <section className="signup-container__left">

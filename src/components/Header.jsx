@@ -23,8 +23,8 @@ const Header = ({ theme, route }) => {
           >
             <Link to="/">ACCEUIL</Link>
           </li>
-          <li className={"nav-list__link " + (route == "don" ? "active" : "")}>
-            <Link to="/book">BESOIN DE SANG</Link>
+          <li className={"nav-list__link " + (route == "besoin" ? "active" : "")}>
+            <Link to="/besoin">BESOIN DE SANG</Link>
           </li>
           <li className={"nav-list__link " + (route == "don" ? "active" : "")}>
             <Link to="/book">DON DE SANG</Link>

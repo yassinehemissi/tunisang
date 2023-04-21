@@ -110,21 +110,15 @@
   top: 0;
   right: 0;
 }
+.signup-container__right:nth-child(1) {
+  border: 1px solid red;
+}
 
-.visible1 {
+.visible {
   animation: fadeIn ease-in 300ms 0s forwards;
-  z-index: 2;
 }
-.invisible1 {
+.invisible {
   animation: fadeOut ease-in 300ms 0s forwards;
-}
-
-.visible-1 {
-  animation: fadeIn1 ease-in 300ms 0s forwards;
-  z-index: 2;
-}
-.invisible-1 {
-  animation: fadeOut1 ease-in 300ms 0s forwards;
 }
 
 @keyframes fadeIn {
@@ -145,28 +139,6 @@
   }
   100% {
     transform: translateX(100%);
-    opacity: 0;
-  }
-}
-
-@keyframes fadeIn1 {
-  0% {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOut1 {
-  0% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
     opacity: 0;
   }
 }
